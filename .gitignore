@@ -1,0 +1,40 @@
+# Source data — download separately from Kaggle
+Sample - Superstore.csv
+clean_superstore*.csv
+clean_superstore*.pkl
+data/raw/
+data/interim/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Power BI temporary files
+*.pbix.autosave
+*.pbix.tmp
+~$*.pbix
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
