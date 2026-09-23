@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+  <title id="title">Product Portfolio Decision System</title>
+  <desc id="desc">A blue portfolio case-study banner highlighting 1,894 governed products, complete action coverage, and a four-page decision interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071B33"/>
+      <stop offset="0.52" stop-color="#0B4DA2"/>
+      <stop offset="1" stop-color="#1678D3"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39C6A3"/>
+      <stop offset="1" stop-color="#7CE3CA"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#00152E" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="560" rx="34" fill="url(#bg)"/>
+  <circle cx="1450" cy="70" r="210" fill="#FFFFFF" opacity="0.045"/>
+  <circle cx="1510" cy="505" r="330" fill="#39C6A3" opacity="0.07"/>
+  <path d="M1110 90 C1260 30 1390 95 1518 30" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.12"/>
+  <path d="M1075 126 C1250 68 1380 140 1535 84" fill="none" stroke="#7CE3CA" stroke-width="2" opacity="0.15"/>
+
+  <text x="92" y="78" fill="#8BC7FF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">DATA ANALYTICS CASE STUDY</text>
+  <rect x="92" y="104" width="116" height="7" rx="3.5" fill="url(#accent)"/>
+
+  <text x="92" y="194" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="760">Product Portfolio</text>
+  <text x="92" y="267" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="760">Decision System</text>
+  <text x="94" y="316" fill="#D7E9FF" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="400">From Profitability Analysis to Management Action</text>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="367" width="360" height="118" rx="18" fill="#FFFFFF" opacity="0.98"/>
+    <rect x="472" y="367" width="360" height="118" rx="18" fill="#FFFFFF" opacity="0.98"/>
+    <rect x="852" y="367" width="360" height="118" rx="18" fill="#FFFFFF" opacity="0.98"/>
+  </g>
+
+  <text x="120" y="419" fill="#0B4DA2" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="760">1,894</text>
+  <text x="120" y="451" fill="#20344C" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1">PRODUCTS GOVERNED</text>
+  <text x="120" y="476" fill="#607186" font-family="Inter, Arial, sans-serif" font-size="15">Complete product decision universe</text>
+
+  <text x="500" y="419" fill="#16845F" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="760">100%</text>
+  <text x="500" y="451" fill="#20344C" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1">ACTION COVERAGE</text>
+  <text x="500" y="476" fill="#607186" font-family="Inter, Arial, sans-serif" font-size="15">One resolved intervention per product</text>
+
+  <text x="880" y="419" fill="#0B4DA2" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="760">4 pages</text>
+  <text x="880" y="451" fill="#20344C" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1">DECISION INTERFACE</text>
+  <text x="880" y="476" fill="#607186" font-family="Inter, Arial, sans-serif" font-size="15">Overview · diagnose · act · audit</text>
+
+  <g transform="translate(1300 335)">
+    <rect x="0" y="0" width="190" height="150" rx="25" fill="#FFFFFF" opacity="0.1" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.25"/>
+    <rect x="28" y="25" width="135" height="18" rx="7" fill="#7CE3CA" opacity="0.9"/>
+    <rect x="28" y="59" width="42" height="58" rx="7" fill="#FFFFFF" opacity="0.88"/>
+    <rect x="78" y="77" width="38" height="40" rx="7" fill="#8BC7FF" opacity="0.92"/>
+    <rect x="124" y="48" width="39" height="69" rx="7" fill="#39C6A3" opacity="0.92"/>
+  </g>
+</svg>
