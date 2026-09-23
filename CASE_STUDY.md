@@ -366,21 +366,23 @@ The Stable Core contains more than half of all products but generates only **34.
 
 #### Step 2 — Identify where management attention should go first
 
-Governance gives every product a valid route. The Priority Zone layer determines which governed products deserve additional management attention.
+Every product already has a Final Intervention. The Priority Zone layer selects the cases that warrant additional review, using three pieces of evidence: performance against comparable products, the status of the current management route, and the reliability of apparent upside.
 
-Products are evaluated against their performance relative to other products in the same analytical role, whether their current route still holds, whether positive performance is reliable enough to act on, and how much economic value or downside is attached to the signal.
+**First, compare each product with its analytical peers.** The comparison uses mean profit per order within the product’s own analytical role. A result at or above the role’s 75th percentile is classified as positive deviation; at or above the 90th percentile, as high positive deviation. A result at or below the 25th percentile is negative deviation. This avoids judging a structurally volatile product against the same profit expectation as a stable one.
 
-| Priority zone | What it identifies | Management response |
+**Next, check whether governance calls for escalation.** A positive deviation under an escalated route may reveal value that the current strategy is failing to capture. Before calling it reliable upside, the product must pass five safeguards: positive total profit, positive mean profit per order, a loss-order rate of no more than 30%, a profit CV of no more than 2.0, and no severe Deterioration signal. Here, *Deterioration* is a breach of current role-relative tolerances; it does not imply a measured decline over time.
+
+| Priority zone | Assignment logic | First management move |
 |---|---|---|
-| **Misaligned Upside** | Reliable outperformance under a route that remains under governance stress | Validate the classification and commercial context before scaling. |
-| **Fragile Value** | Positive performance that fails one or more reliability safeguards | Stabilise volatility or downside before further investment. |
-| **Broken Value** | Weak role-relative performance combined with hard governance exposure | Correct, restructure, restrict, or consider exit. |
-| **Defendable Value** | Strong performance inside a management route that continues to hold | Protect and maintain. |
-| **Watchlist / Unresolved** | Weak or uncertain performance without enough evidence for an immediate hard intervention | Monitor, diagnose, and reassess when evidence improves. |
+| **Misaligned Upside · 80 products** | Positive role-relative deviation, governance escalation, and all five safeguards passed. | Validate the role and commercial context before scaling. |
+| **Fragile Value · 163 products** | Positive role-relative deviation and escalation, but at least one safeguard fails. | Identify and stabilise the source of loss or volatility before further investment. |
+| **Broken Value · 158 products** | Negative role-relative deviation with a Reroute or Reassess escalation. | Review correction, restructuring, exposure restriction, or exit. |
+| **Defendable Value · 234 products** | Positive role-relative deviation with no escalation. | Maintain the current route and protect the value it produces. |
+| **Watchlist / Unresolved · 318 products** | Negative role-relative deviation with no escalation or an Intensify escalation. | Diagnose and monitor before committing to a stronger intervention. |
 
-The active queue contains **953 products (50.3%)**. The remaining **941 products** still retain a valid Final Intervention and remain available in the full product audit; they simply do not consume space in the executive attention queue.
+The safeguards determine whether **escalated upside** qualifies as reliable; they are not an additional entry requirement for Defendable Value. Products with role-aligned performance enter none of the five zones.
 
-> **Management question:** Where does the current strategy require additional management attention, and which cases matter most economically?
+Together, the zones place **953 products (50.3%)** in the active attention queue. The other **941 products** retain their Final Intervention and remain visible in the full product audit. Zone membership identifies the type of review needed; economic exposure shows why a case matters. For example, Misaligned Upside contains **€89.1K of net profit**, while Broken Value accounts for **66.2% of the portfolio’s realised loss**. These signals justify a management review, not an automatic decision to scale or exit.
 
 ### Chapter 3 decision flow
 
