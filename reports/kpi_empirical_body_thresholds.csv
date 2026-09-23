@@ -1,0 +1,4 @@
+feature,feature_layer,lower_quantile,upper_quantile,lower_value,upper_value
+mean_order_profit,model_feature_space,0.01,0.99,-229.796274,551.8853759999995
+cv_order_profit,model_feature_space,0.01,0.99,0.0,22.58835556673432
+profit_scale,model_feature_space,0.01,0.99,-0.03166901052256975,0.08321032540251687

@@ -1,0 +1,5 @@
+opportunity_quality,opportunity_action,Products,Total_Profit,Mean_CV,Mean_Loss_Rate
+Not Opportunity Candidate,No Opportunity Action,1417,120162.6305,1.8549793749514556,0.18527602719557554
+Outperforming Within Governance Route,Maintain / Monitor,234,57182.0929,0.5481681425897861,0.011691086691086691
+True Hidden Opportunity Candidate,Reframe / Reclassify,80,89097.5536,0.9515338765595074,0.0645188492063492
+Unstable Upside / Risky Profit,Do Not Scale — Stabilize or Restructure First,163,19954.7447,4.666236640652789,0.39033476748200674

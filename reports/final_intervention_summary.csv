@@ -1,0 +1,15 @@
+primary_action,escalation_status,final_intervention,n_products,total_profit,portfolio_share
+Contain,Reassess Classification,Reassess Classification,2,433.74689999999975,0.0010559662090813093
+Contain,Reroute Action,Reroute to Correct,86,774.4215000000002,0.0454065469904963
+Correct,Intensify Action,Correct — Accelerated,85,-4540.7946,0.04487856388595565
+Correct,No Escalation,Correct,7,-3372.1569,0.003695881731784583
+Correct,Reassess Classification,Reassess Classification,19,-1372.9435000000005,0.01003167898627244
+Correct,Reroute Action,Exit / Restructure,299,-58490.0043,0.15786694825765576
+Optimize,Intensify Action,Optimize (Risk-Controlled),60,52627.4534,0.03167898627243928
+Optimize,No Escalation,Optimize,16,7634.1235,0.008447729672650475
+Optimize,Reassess Classification,Reassess Classification,4,2241.341,0.0021119324181626186
+Optimize,Reroute Action,Reroute to Correct,70,154940.7386,0.03695881731784583
+Protect,Intensify Action,Protect (Tight Control),135,19214.0789,0.07127771911298839
+Protect,No Escalation,Protect,985,95079.6216,0.5200633579725449
+Protect,Reassess Classification,Reassess Classification,14,2761.855,0.007391763463569166
+Protect,Reroute Action,Reroute to Contain / Correct,112,18465.5406,0.059134107708553325

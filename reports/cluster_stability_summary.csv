@@ -1,0 +1,3 @@
+Metric,Median,P05,P95,Verdict
+Adjusted Rand Index,0.9760688539021596,0.9451834577318102,0.9951069365031473,Very stable
+Silhouette Score,0.5574424392970658,0.5491172886804786,0.56595189164663,Separation remains consistent

@@ -1,0 +1,15 @@
+threshold_name,value,reference_layer
+impact_p95,0.026801778957463527,Clustered-body Profit Scale p95
+impact_p99,0.056478059818266084,Clustered-body Profit Scale p99
+cv_p90,3.8950510399688505,Clustered-body CV p90
+cv_p95,6.646549616704494,Clustered-body CV p95
+cv_p99,16.03933358966449,Clustered-body CV p99
+loss_p90,0.5,Clustered-body Loss Rate p90
+body_instability_watch_margin,0.1,Body centroid margin
+body_instability_high_margin,0.05,Body centroid margin
+loss_tail_watch_distance,0.02,Loss Tail distance to zero
+loss_tail_high_distance,0.01,Loss Tail distance to zero
+vol_tail_watch_excess,0.5,Volatility Tail excess over body CV p95
+vol_tail_high_excess,0.2,Volatility Tail excess over body CV p95
+impact_tail_watch_excess,0.02,Impact Tail excess over body impact p95
+impact_tail_high_excess,0.01,Impact Tail excess over body impact p95
