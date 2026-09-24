@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="270" viewBox="0 0 1280 270" role="img" aria-labelledby="title desc">
+  <title id="title">Product Portfolio Decision System — data to decision pipeline</title>
+  <desc id="desc">Four connected stages: SQL data foundation, Python product analysis, governance decision logic, and Power BI decision review.</desc>
+
+  <rect x="1" y="1" width="1278" height="268" rx="22" fill="#F7FAFC" stroke="#DCE6ED" stroke-width="2"/>
+  <text x="45" y="36" fill="#688099" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2.3">END-TO-END DATA ANALYSIS PIPELINE</text>
+
+  <!-- Connector arrows stay in the gaps between cards. -->
+  <path d="M317 148h24m-7-7 7 7-7 7M623 148h24m-7-7 7 7-7 7M929 148h24m-7-7 7 7-7 7"
+        fill="none" stroke="#8FA9B8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="45" y="57" width="270" height="177" rx="17" fill="#FFFFFF" stroke="#CDDEE8" stroke-width="2"/>
+  <rect x="45" y="57" width="270" height="5" rx="2.5" fill="#517C9B"/>
+  <text x="65" y="91" fill="#517C9B" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1">01  SQL</text>
+  <text x="65" y="125" fill="#18324D" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Data foundation</text>
+  <text x="65" y="155" fill="#51677B" font-family="Arial, Helvetica, sans-serif" font-size="16">Audit · grain · reconcile</text>
+  <rect x="65" y="183" width="230" height="34" rx="8" fill="#ECF3F8"/>
+  <text x="77" y="205" fill="#305E7C" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">9,994 raw → 9,986 clean</text>
+
+  <rect x="351" y="57" width="270" height="177" rx="17" fill="#FFFFFF" stroke="#CDDEE8" stroke-width="2"/>
+  <rect x="351" y="57" width="270" height="5" rx="2.5" fill="#448DA1"/>
+  <text x="371" y="91" fill="#448DA1" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1">02  PYTHON</text>
+  <text x="371" y="125" fill="#18324D" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Product analysis</text>
+  <text x="371" y="155" fill="#51677B" font-family="Arial, Helvetica, sans-serif" font-size="16">KPIs · patterns · roles</text>
+  <rect x="371" y="183" width="230" height="34" rx="8" fill="#EBF5F7"/>
+  <text x="383" y="205" fill="#357686" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">1,894 product profiles</text>
+
+  <rect x="657" y="57" width="270" height="177" rx="17" fill="#FFFFFF" stroke="#CDDEE8" stroke-width="2"/>
+  <rect x="657" y="57" width="270" height="5" rx="2.5" fill="#269B87"/>
+  <text x="677" y="91" fill="#269B87" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1">03  GOVERNANCE</text>
+  <text x="677" y="125" fill="#18324D" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Decision logic</text>
+  <text x="677" y="155" fill="#51677B" font-family="Arial, Helvetica, sans-serif" font-size="16">Signals · routes · priority</text>
+  <rect x="677" y="183" width="230" height="34" rx="8" fill="#EAF7F3"/>
+  <text x="689" y="205" fill="#167763" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">1,894 final interventions</text>
+
+  <rect x="963" y="57" width="270" height="177" rx="17" fill="#FFFFFF" stroke="#CDDEE8" stroke-width="2"/>
+  <rect x="963" y="57" width="270" height="5" rx="2.5" fill="#316FAB"/>
+  <text x="983" y="91" fill="#316FAB" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1">04  POWER BI</text>
+  <text x="983" y="125" fill="#18324D" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Decision review</text>
+  <text x="983" y="155" fill="#51677B" font-family="Arial, Helvetica, sans-serif" font-size="16">Overview → product audit</text>
+  <rect x="983" y="183" width="230" height="34" rx="8" fill="#EDF3FA"/>
+  <text x="995" y="205" fill="#285F97" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">4-page report snapshot</text>
+</svg>

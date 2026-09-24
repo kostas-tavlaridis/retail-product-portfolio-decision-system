@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="case-study/assets/readme_decision_flow.svg" alt="From transaction evidence to a traceable product decision" width="760">
+  <img src="case-study/assets/readme_pipeline.svg" alt="Pipeline: SQL data foundation, Python product analysis, governance decisions, and Power BI review" width="960">
 </p>
 
 # Product Portfolio Decision System
