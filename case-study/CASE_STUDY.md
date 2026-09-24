@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/case-study/hero.svg" alt="Product Portfolio Decision System" width="100%">
+  <img src="assets/hero.svg" alt="Product Portfolio Decision System" width="100%">
 </p>
 
 <p align="center">
@@ -75,7 +75,7 @@ That question is answered in three stages:
 
 ### One traceable path from raw transactions to management action
 
-![Decision architecture](assets/case-study/01_decision_architecture.png)
+![Decision architecture](assets/01_decision_architecture.png)
 
 *Figure 1. Each analytical layer produces a controlled output that becomes the input to the next decision layer.*
 
@@ -135,7 +135,7 @@ This grain control protects every downstream measure. If repeated transaction li
 
 Before assigning any role, the analysis tested whether the portfolio behaved like one relatively uniform system or contained meaningful structural differences.
 
-![Structural diagnostic readout](assets/case-study/02_structural_diagnostics.png)
+![Structural diagnostic readout](assets/02_structural_diagnostics.png)
 
 *Figure 2. The portfolio is economically uneven before any segmentation model is applied.*
 
@@ -203,7 +203,7 @@ Loss Rate remained an active clustering feature, but it was not used as an addit
 | **Clustered Body** | **1,822** | **96.2%** | Standardised K-means clustering |
 | **Structural Tail** | **72** | **3.8%** | Mechanism-based tail classification |
 
-![Body and tail method selection](assets/case-study/03_body_tail_sensitivity.png)
+![Body and tail method selection](assets/03_body_tail_sensitivity.png)
 
 *Figure 3. The selected 1st–99th percentile boundary preserves broad portfolio coverage while keeping structural extremes visible.*
 
@@ -248,7 +248,7 @@ They were instead classified through explicit rules anchored to the body distrib
 
 Together, the four body clusters and three tail regimes form a **seven-role analytical taxonomy**.
 
-![Analytical role landscape](assets/case-study/04_analytical_roles.png)
+![Analytical role landscape](assets/04_analytical_roles.png)
 
 *Figure 4. The seven analytical roles separate product footprint from economic contribution.*
 
@@ -412,7 +412,7 @@ The business implication is direct: products do not carry equal economic importa
 
 ### Finding 2 — Profitability is not fully under stable management control
 
-![Portfolio governance scorecard](assets/case-study/05_governance_scorecard.png)
+![Portfolio governance scorecard](assets/05_governance_scorecard.png)
 
 *Figure 5. The portfolio looks more stable by product count than it does by economic exposure.*
 
@@ -472,7 +472,7 @@ The active queue contains **953 products (50.3%)**. The remaining **941 products
 
 ### Move from portfolio condition to a defensible product decision
 
-![Four-page dashboard journey](assets/case-study/06_dashboard_user_journey.png)
+![Four-page dashboard journey](assets/06_dashboard_user_journey.png)
 
 *Figure 6. Overview → diagnose → act → audit.*
 

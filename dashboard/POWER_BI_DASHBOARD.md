@@ -132,13 +132,13 @@ Power BI provides the interactive reporting and decision layer. The product clas
 
 ## Data source and calculation flow
 
-The upstream Python pipeline exports the product-level results to `reports/governance_output.xlsx`. Its `audit_view` contains one row per product (1,894 rows) and the fields used for portfolio economics, analytical roles, governance and priority decisions. The dashboard's `Products` query shows these product-level audit fields.
+The upstream Python pipeline exports the product-level results to [`python/reports/governance_output.xlsx`](../python/reports/governance_output.xlsx). Its `audit_view` contains one row per product (1,894 rows) and the fields used for portfolio economics, analytical roles, governance and priority decisions. The dashboard's `Products` query shows these product-level audit fields.
 
 For portability, this PBIX stores a **copy of the governance workbook inside the report**. The Power Query item `Governance Workbook Binary` decodes that embedded copy with `Binary.FromText`; `Products` reads its workbook data, and `Actions` prepares the filtered, sorted action queue. As a result, **Data sources in current file** does not list an external Excel file.
 
 The classifications, intervention routes and priority fields come from the Python output. DAX uses the loaded product data to calculate what the report currently displays, such as the number of selected products, their net profit and exposure percentages. Slicers change these displayed calculations; they do not rerun the Python analysis or assign a new governance decision.
 
-This is a **static snapshot**. Editing `reports/governance_output.xlsx` does not update the workbook copy embedded in an already saved PBIX. To reflect new pipeline results, the embedded copy must be replaced, the model checked and the report republished. Scheduled refresh from an external source would require a different connection design. The snapshot has no reliable time dimension, so the dashboard focuses on structural and management filters rather than time trends.
+This is a **static snapshot**. Editing `python/reports/governance_output.xlsx` does not update the workbook copy embedded in an already saved PBIX. To reflect new pipeline results, the embedded copy must be replaced, the model checked and the report republished. Scheduled refresh from an external source would require a different connection design. The snapshot has no reliable time dimension, so the dashboard focuses on structural and management filters rather than time trends.
 
 ## How the dashboard can be used
 

@@ -109,7 +109,7 @@ These rules are more important than the individual algorithms. They are what mak
 
 ## 4. Project structure
 
-The modules are designed to form a Python package similar to the following:
+Inside `python/`, the modules form an importable package:
 
 ```text
 portfolio_pipeline/
@@ -907,8 +907,8 @@ Not every exported file serves the same reader.
 
 The shared configuration writes persistent artifacts to two standard locations:
 
-- `reports/` — CSV and Excel decision, audit, and summary tables.
-- `reports/figures/` — PNG analytical and reporting figures.
+- `python/reports/` — CSV and Excel decision, audit, and summary tables.
+- `python/reports/figures/` — PNG analytical and reporting figures.
 
 The principal exported artifacts are:
 

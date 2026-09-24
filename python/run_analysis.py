@@ -79,13 +79,13 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--input-csv",
         type=Path,
-        default=Path("clean_superstore_csv_export.csv"),
+        default=AnalysisConfig().input_csv,
         help="Path to the SQL-cleaned Superstore CSV export.",
     )
     parser.add_argument(
         "--reports-dir",
         type=Path,
-        default=Path("reports"),
+        default=AnalysisConfig().reports_dir,
         help="Directory used by chapter exports.",
     )
     parser.add_argument(
