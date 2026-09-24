@@ -1,29 +1,29 @@
-# Retail Product Portfolio Decision System
+<p align="center">
+  <img src="case-study/assets/readme_decision_flow.svg" alt="From transaction evidence to a traceable product decision" width="760">
+</p>
 
-**From transaction data to product-level management decisions.** This portfolio project examines 1,894 products, distinguishes recurring patterns from structural extremes, and turns the evidence into governance actions and a priority queue. The case study and executive report explain the business decision; the notebook, SQL, Python pipeline, exports, and Power BI file make the reasoning inspectable.
+# Product Portfolio Decision System
 
-## Choose a reading path
+Using the public [Sample - Superstore dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final), this independent project studies **1,894 products** to identify dependable profit, recurring risk, and where review should begin. It reflects my approach to business problems: define the decision, validate evidence, apply explicit rules, and make the result usable and auditable.
 
-| Deliverable | Start here | What you will find |
-| --- | --- | --- |
-| Business story | [Case study](case-study/CASE_STUDY.md) | Problem, method, findings, limitations, and diagrams |
-| Management brief | [Executive report (PDF)](executive-report/EXECUTIVE_REPORT.pdf) | Concise decision narrative; [editable PPTX](executive-report/EXECUTIVE_REPORT.pptx) |
-| Interactive decision layer | [Power BI dashboard guide](dashboard/POWER_BI_DASHBOARD.md) | Four pages, screenshots, and a downloadable PBIX |
-| Analytical walkthrough | [Notebook](analytical-notebook/README.md) | Chapter-by-chapter evidence and implementation |
-| Reusable analytical engine | [Python pipeline](python/README.md) | Nine validated chapters, architecture guide, and exported audit evidence |
-| Data preparation | [SQL audit and cleaning](sql/README.md) | Raw-data controls, cleaning decisions, and export to Python |
+## From data to decision
 
-## How the pieces connect
+The project follows an **end-to-end data analysis pipeline**:
 
-The [SQL workflow](sql/SUPERSTORE_CLEANING_PROCESS.md) produces `clean_superstore_csv_export.csv` from the raw Superstore data. The [Python pipeline](python/Product_Portfolio_Code_Architecture_Guide.md) builds product KPIs, analytical roles, governance decisions, and priority zones; its committed output tables and figures are in [`python/reports/`](python/reports/). The [analytical notebook](analytical-notebook/Product_Portfolio_Risk_Performance.ipynb) calls the same chapter modules and explains the analysis step by step. The [Power BI dashboard](dashboard/POWER_BI_DASHBOARD.md) uses an embedded snapshot of the governance workbook to let a reviewer inspect the management decisions. The case study and executive report communicate the conclusions.
+1. **SQL — establish a controlled base.** Audit **9,994 raw transaction lines**, check the analytical grain, and reconcile **9,986 order × product records**.
+2. **Python — diagnose products.** Measure profit, volatility, loss frequency, and scale; distinguish recurring patterns from extremes; and assign analytical roles. The notebook shows the shared calculations and validation.
+3. **Governance — resolve the action.** Test each role's initial management route against control signals, assign a final intervention to every product, and select cases for closer review.
+4. **Power BI — inspect decisions.** Follow a static four-page snapshot from portfolio exposure to the evidence behind one product's recommendation.
 
-## Reproducing the analysis
+## Explore the repository
 
-The raw source data and SQL-cleaned input CSV are not included in this repository. Export the final result from the SQL workflow as `clean_superstore_csv_export.csv` into the repository root, then from that root run:
+| Folder | What it contains and shows |
+| --- | --- |
+| [`case-study/`](case-study/) | The [case study](case-study/CASE_STUDY.md) and its diagrams explain the business problem, analytical choices, findings, and limits of the recommendations. |
+| [`executive-report/`](executive-report/) | The [PDF](executive-report/EXECUTIVE_REPORT.pdf) presents the management narrative; the [PPTX](executive-report/EXECUTIVE_REPORT.pptx) is the editable slide version. |
+| [`dashboard/`](dashboard/) | The [Power BI guide](dashboard/POWER_BI_DASHBOARD.md), four screenshots, and [PBIX](dashboard/Product_Portfolio_Dashboard.pbix) show how a reviewer moves from portfolio KPIs to a product-level audit. |
+| [`analytical-notebook/`](analytical-notebook/) | The [notebook](analytical-notebook/Product_Portfolio_Risk_Performance.ipynb) presents the calculations, diagnostics, validation, and saved analytical outputs; its [README](analytical-notebook/README.md) explains how to run it. |
+| [`python/`](python/) | The [runner](python/run_analysis.py), nine-chapter package, [architecture guide](python/Product_Portfolio_Code_Architecture_Guide.md), and [reports](python/reports/) expose the reusable logic, checks, and decision outputs. |
+| [`sql/`](sql/) | The [MySQL script](sql/superstore_sql_audit_cleaning_pipeline.sql) and [cleaning record](sql/SUPERSTORE_CLEANING_PROCESS.md) document source checks, consolidation, reconciliation, and the handoff to Python. |
 
-```bash
-python -m pip install -r python/requirements.txt
-python python/run_analysis.py --no-show
-```
-
-The runner writes to `python/reports/` by default. To use the notebook instead, see its [setup instructions](analytical-notebook/README.md). Existing exports with matching names may be replaced when the analysis runs. The PBIX embeds a static workbook copy, so regenerating the Excel export does not automatically refresh the dashboard.
+*Scope: a historical, sample-data decision-support prototype; no measured business impact is claimed. Input CSVs are not committed; see the [`sql/`](sql/README.md) and [`python/`](python/README.md) guides to reproduce the analysis.*
